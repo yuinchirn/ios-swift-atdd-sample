@@ -10,17 +10,17 @@ import Foundation
 import XCTest
 
 protocol TodoListSteps {
-    func givenTheAppIsLaunched()
-    func thenIShouldSeeTodoListView()
+    func when_アプリが起動する時()
+    func then_TODO一覧が表示される()
 }
 
 extension TodoListSteps {
     
-    func givenTheAppIsLaunched() {
+    func when_アプリが起動する時() {
         XCUIApplication().launch()
     }
     
-    func thenIShouldSeeTodoListView() {
+    func then_TODO一覧が表示される() {
         XCTAssertTrue(XCUIApplication().navigationBars["TODO"].exists)
     }
 

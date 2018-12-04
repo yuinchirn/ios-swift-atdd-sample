@@ -14,14 +14,10 @@ class TodoListFeature: XCTestCase, TodoListSteps {
         continueAfterFailure = false
         XCUIApplication().launch()
     }
-
-    override func tearDown() {
-    }
     
-    func testTodoListAppearsWhenAppStarted() {
-        givenTheAppIsLaunched()
-        thenIShouldSeeTodoListView()
+    func test_TODO一覧の表示() {
+        when_アプリが起動する時()
+        then_TODO一覧が表示される()
     }
-
 
 }
