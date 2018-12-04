@@ -19,5 +19,12 @@ class TodoListFeature: XCTestCase, TodoListSteps {
         when_アプリが起動する時()
         then_TODO一覧が表示される()
     }
+    
+    func test_＋ボタン押下でせTODO追加画面に遷移() {
+        given_TODO一覧画面を開いている()
+        when_＋ボタンを押す時()
+        then_TODO追加画面が表示される()
+    }
+
 
 }

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20B68F321B6E3D1002D5168 /* AddTodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B68F221B6E3D1002D5168 /* AddTodoController.swift */; };
 		F21FC0EA21B6B56800771871 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21FC0E821B6B56800771871 /* Quick.framework */; };
-		F21FC0EB21B6B56800771871 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21FC0E921B6B56800771871 /* Nimble.framework */; };
+		F21FC0EB21B6B56800771871 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21FC0E921B6B56800771871 /* Nimble.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		F21FC0ED21B6B59F00771871 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F21FC0E821B6B56800771871 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F21FC0EE21B6B5A600771871 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F21FC0E921B6B56800771871 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F21FC0F621B6C62D00771871 /* TodoListSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FC0F521B6C62D00771871 /* TodoListSteps.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F20B68F221B6E3D1002D5168 /* AddTodoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoController.swift; sourceTree = "<group>"; };
 		F21FC0E821B6B56800771871 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F21FC0E921B6B56800771871 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F21FC0F521B6C62D00771871 /* TodoListSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListSteps.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				F2DDD46B21B69EE600FB49D6 /* Info.plist */,
 				F2DDD46321B69EE500FB49D6 /* todoApp.xcdatamodeld */,
 				F21FC0F721B6CCA200771871 /* TodoListControllerTableViewController.swift */,
+				F20B68F221B6E3D1002D5168 /* AddTodoController.swift */,
 			);
 			path = todoApp;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2DDD46521B69EE500FB49D6 /* todoApp.xcdatamodeld in Sources */,
+				F20B68F321B6E3D1002D5168 /* AddTodoController.swift in Sources */,
 				F2DDD45D21B69EE500FB49D6 /* AppDelegate.swift in Sources */,
 				F21FC0F821B6CCA200771871 /* TodoListControllerTableViewController.swift in Sources */,
 			);
